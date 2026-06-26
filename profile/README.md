@@ -1,41 +1,38 @@
 # ML Engineering Curriculum
 
-> A hands-on curriculum for **building the models themselves** — data curation, training pipelines, fine-tuning, preference optimization (RLHF/DPO), pretraining at scale, and the evaluation that proves a model got better.
+> A hands-on, role-based curriculum for the **ML Engineering** career ladder.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ml-engineering-curriculum/discussions)
 
 ## ⚠️ AI-Generated Content Disclaimer
 
 > The content in these repositories is generated with AI assistance and undergoes ongoing human review. It may contain errors or outdated information. Treat it as a learning resource: cross-reference official docs, test code in a safe environment, and report issues via GitHub Issues or Discussions.
 
-## 🎯 Overview
-
-This org is the **ML engineering** vertical of a four-part curriculum family: it teaches how to *build and train models* — going from your first reproducible fine-tuning run to leading a frontier-scale pretraining program. It sits one direction over from [AI Engineering](https://github.com/ai-engineering-curriculum) (which builds *with* models): here you produce the models others consume. Every role has a paired **learning** repository (modules, lecture chapters, exercises, quizzes) and a **solutions** repository with reference walkthroughs.
-
 ## 📚 Role Ladder
 
-| Role | Level | Focus | Repositories |
-|------|-------|-------|--------------|
-| **Machine Learning Engineer** | Entry (L20) | Data prep & curation, training pipelines, supervised fine-tuning, reproducibility, experiment tracking | [📘 Learning](https://github.com/ml-engineering-curriculum/ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/ml-engineer-solutions) |
-| **Senior ML Engineer** | Build (L30) | Advanced fine-tuning (LoRA/QLoRA/full), eval-harness design, preference optimization (DPO/RLHF), dataset engineering at scale | [📘 Learning](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/senior-ml-engineer-solutions) |
-| **Staff ML Engineer** | Staff/Lead (L40) | Pretraining strategy, distributed-training systems, scaling laws, architecture & data ablations, training-platform direction | [📘 Learning](https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/staff-ml-engineer-solutions) |
-| **Principal ML Engineer** | Frontier (L48) | Org-wide modeling direction, frontier-scale pretraining, alignment pipelines, model-release & evaluation strategy, applied-ML architecture | [📘 Learning](https://github.com/ml-engineering-curriculum/principal-ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/principal-ml-engineer-solutions) |
+| Role | Level | Repositories |
+|------|-------|--------------|
+| **Machine Learning Engineer** | L20 | [📘 Learning](https://github.com/ml-engineering-curriculum/ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/ml-engineer-solutions) |
+| **Fine-Tuning Engineer** | L30 | [📘 Learning](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-solutions) |
+| **Model Evaluation Engineer** | L30 | [📘 Learning](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-solutions) |
+| **NLP Engineer** | L30 | [📘 Learning](https://github.com/ml-engineering-curriculum/nlp-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/nlp-engineer-solutions) |
+| **Senior Machine Learning Engineer** | L30 | [📘 Learning](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/senior-ml-engineer-solutions) |
+| **Training Pipeline Engineer** | L35 | [📘 Learning](https://github.com/ml-engineering-curriculum/training-pipeline-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/training-pipeline-engineer-solutions) |
+| **Staff Machine Learning Engineer** | L40 | [📘 Learning](https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/staff-ml-engineer-solutions) |
+| **Principal Machine Learning Engineer** | L48 | [📘 Learning](https://github.com/ml-engineering-curriculum/principal-ml-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/principal-ml-engineer-solutions) |
 
-> **Seniority ladder, model-building specializations.** Fine-tuning, training-pipeline, evaluation, and ML-research work are specialist *directions* within these rungs — see [`CAREER_PROGRESSION.md`](./CAREER_PROGRESSION.md). The distributed-training **infrastructure** (GPU clusters, NCCL, schedulers, checkpointing) lives in the [AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum); this org owns the *modeling* question — "did the training run produce a better model?" — not the cluster operations.
+## 📈 Career Progression
+
+See the **[Career Progression Guide](./CAREER_PROGRESSION.md)** for the full ladder — level descriptions, skills matrix, compensation ranges, promotion criteria, and specialist tracks.
 
 ## 🔗 Curriculum Family
 
-This is one of four sibling orgs covering the full landscape of AI work — organized by what you *do* relative to a model:
+One of four sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
 
 - **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE).
 - **ML Engineering Curriculum** *(you are here)* — *build & train* the models (data, fine-tuning, pretraining, RLHF, evals).
 - **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems).
 - **[AI Governance Curriculum](https://github.com/ai-governance-curriculum)** — *govern & assure* AI (security, compliance, evaluation, safety).
-
-## 🤝 Contributing
-
-Contributions welcome — fix broken links or stale references, add depth, improve exercise validation, or open a [Discussion](https://github.com/orgs/ml-engineering-curriculum/discussions).
 
 ---
 
