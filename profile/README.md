@@ -27,12 +27,13 @@ See the **[Career Progression Guide](./CAREER_PROGRESSION.md)** for the full lad
 
 ## 🔗 Curriculum Family
 
-One of four sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
+One of five sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
 
 - **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE).
 - **ML Engineering Curriculum** *(you are here)* — *build & train* the models (data, fine-tuning, pretraining, RLHF, evals).
 - **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems).
 - **[AI Governance Curriculum](https://github.com/ai-governance-curriculum)** — *govern & assure* AI (security, compliance, evaluation, safety).
+- **[AI Startup Curriculum](https://github.com/ai-startup-curriculum)** — *turn it into a company* — the startup operating school for technical founders (functional curricula × role pathways × stages).
 
 ---
 
