@@ -1,8 +1,8 @@
 # Career Progression Guide — ML Engineering
 
-A career-ladder guide for the discipline of **building and training models** — data curation, training pipelines, supervised fine-tuning, preference optimization (RLHF/DPO), evaluation, experiment discipline, and pretraining at scale. This is one of four sibling curricula in the **AI Career Curriculum ecosystem**.
+A career-ladder guide for the discipline of **building and training models** — data curation, training pipelines, supervised fine-tuning, preference optimization (RLHF/DPO), evaluation, experiment discipline, and pretraining at scale. This is one of five sibling curricula in the **AI Career Curriculum ecosystem**.
 
-> **Status: SCAFFOLDED.** All four role curricula below exist as paired repositories, but the curriculum content (modules, exercises, projects, solutions) has **not been authored yet**. Treat this document as the structural map of the ladder; the learning material is in active development.
+> **Status:** all eight roles — the four-rung core ladder and four specialist tracks — have authored learning content and reference solutions. Content is under ongoing human review.
 
 ## Career Ladder Overview
 
@@ -18,6 +18,8 @@ A career-ladder guide for the discipline of **building and training models** —
    └──────────────────────────────────────────────────────────┘
             (bottom = entry, top = most senior)
 ```
+
+**Specialist tracks** branch off the core ladder: **Fine-Tuning Engineer**, **Model Evaluation Engineer**, and **NLP Engineer** (L30), and **Training Pipeline Engineer** (L35). See [Specialist Roles](#specialist-roles) below.
 
 Years-of-experience bands are approximate signals, not hard gates. Demonstrated scope, ownership, and technical judgment matter more than tenure — strong practitioners move faster, and switching domains (e.g., infra → ML) can reset effective experience at a given rung.
 
@@ -54,6 +56,24 @@ You define the model-building program for an organization and are accountable fo
 - **Responsibilities:** Set multi-quarter frontier-scale training programs; own alignment and preference pipelines at production scale; define applied-ML architecture and standards across the org; make the highest-leverage compute and research-direction calls.
 - **Representative work:** Charter a frontier-scale training program with risk-managed milestones; design end-to-end alignment pipelines (SFT → reward modeling → RLHF/DPO → evaluation → release gating); establish org-wide standards for reproducibility, eval, and safe model release; represent the model-building org in cross-functional bets.
 - **Technical depth expected:** Frontier-scale program design; full alignment-pipeline architecture; applied-ML system architecture; research-to-production translation; deep judgment on compute economics, data strategy, and risk; technical leadership and standard-setting.
+
+## Specialist Roles
+
+### L30 — Fine-Tuning Engineer
+
+- **Focus:** post-training foundations, SFT dataset engineering, supervised fine-tuning, PEFT (LoRA/QLoRA), preference optimization, safety and alignment tuning, distributed fine-tuning, evaluating fine-tuned models, and quantization, export, and serving.
+
+### L30 — Model Evaluation Engineer
+
+- **Focus:** evaluation foundations, benchmark engineering, classical ML evaluation in depth, LLM benchmark harnesses, LLM-as-judge platforms, human evaluation, generative and multimodal evaluation, agent and tool evaluation, safety and red-team evaluation, and production evaluation.
+
+### L30 — NLP Engineer
+
+- **Focus:** tokenization and text foundations, classical NLP, text classification, sequence labelling and information extraction, question answering and machine reading, summarization and controlled generation, and machine translation and multilingual NLP.
+
+### L35 — Training Pipeline Engineer
+
+- **Focus:** distributed training foundations, training frameworks in depth, training-scale data pipelines, cluster orchestration for training, networking and storage for training, checkpointing, fault tolerance and elastic training, and throughput and MFU.
 
 ## Skills Matrix by Level
 
@@ -92,7 +112,7 @@ At every transition the bar is **demonstrated scope at the next level**, not pot
 
 ## Learning Paths
 
-Each rung maps to a paired `-learning` (curriculum, exercises, projects) and `-solutions` (reference implementations) repository. The intended progression:
+Each role maps to a paired `-learning` (curriculum, exercises, projects) and `-solutions` (reference implementations) repository. The core progression:
 
 1. **Start at L20** — `ml-engineer-learning`. Build fluency in training pipelines, SFT, reproducibility, and experiment tracking. Check work against `ml-engineer-solutions`.
 2. **Advance to L30** — `senior-ml-engineer-learning`. Layer on advanced fine-tuning, DPO/RLHF, eval-harness design, and dataset engineering.
@@ -101,44 +121,43 @@ Each rung maps to a paired `-learning` (curriculum, exercises, projects) and `-s
 
 Use the `-solutions` repos to self-check, not to shortcut: the discipline being trained is experiment rigor, and copying a result defeats the exercise.
 
-> Reminder: these repos are **scaffolded but not yet authored**. The path above describes the intended structure; content is in development.
 
 ## Specialist Tracks
 
-Beyond the core ladder, several **specialist directions** are planned. These are **aspirational and not yet built** — they are not separate curricula today, and no repositories back them. They represent the depth areas a practitioner might branch into as the ecosystem matures:
+Specialist tracks branch off the core ladder for depth in one area.
 
-- **Fine-Tuning Engineer** — deep specialization in SFT, LoRA/QLoRA, and preference optimization.
-- **Model Evaluation Engineer** — eval-harness design, benchmark construction, and regression detection.
-- **Training Pipeline Engineer** — high-throughput, fault-tolerant distributed training systems.
-- **ML Research Engineer** — translating research ideas into rigorous, reproducible experiments.
-- **Applied ML Engineer** — taking trained models into production product contexts.
-- **NLP / CV / Recommendation Engineer** — domain-specialized model building.
-
-When these tracks are authored, they will branch off the core ladder rather than replace it.
+- **Fine-Tuning Engineer** *(available, L30)* — SFT, LoRA/QLoRA, and preference optimization in depth.
+- **Model Evaluation Engineer** *(available, L30)* — eval-harness design, benchmark construction, and regression detection.
+- **NLP Engineer** *(available, L30)* — domain-specialized language modeling, from classical NLP to multilingual generation.
+- **Training Pipeline Engineer** *(available, L35)* — high-throughput, fault-tolerant distributed training systems.
+- **ML Research Engineer** *(planned)* — translating research ideas into rigorous, reproducible experiments.
+- **Applied ML Engineer** *(planned)* — taking trained models into production product contexts.
+- **CV / Recommendation Engineer** *(planned)* — further domain-specialized model building.
 
 ## Repository Map
 
-Organization: **`ml-engineering-curriculum`** on GitHub. All repositories are currently **scaffolded (in development)**.
+All repositories live under the [`ml-engineering-curriculum`](https://github.com/ml-engineering-curriculum) GitHub organization. Every role has a paired `-learning` repo (modules, lecture chapters, exercises) and a `-solutions` repo (reference walkthroughs).
 
-| Level | Repository | Link | Status |
-|---|---|---|---|
-| L20 | ml-engineer-learning | https://github.com/ml-engineering-curriculum/ml-engineer-learning | scaffolded (in development) |
-| L20 | ml-engineer-solutions | https://github.com/ml-engineering-curriculum/ml-engineer-solutions | scaffolded (in development) |
-| L30 | senior-ml-engineer-learning | https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning | scaffolded (in development) |
-| L30 | senior-ml-engineer-solutions | https://github.com/ml-engineering-curriculum/senior-ml-engineer-solutions | scaffolded (in development) |
-| L40 | staff-ml-engineer-learning | https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning | scaffolded (in development) |
-| L40 | staff-ml-engineer-solutions | https://github.com/ml-engineering-curriculum/staff-ml-engineer-solutions | scaffolded (in development) |
-| L48 | principal-ml-engineer-learning | https://github.com/ml-engineering-curriculum/principal-ml-engineer-learning | scaffolded (in development) |
-| L48 | principal-ml-engineer-solutions | https://github.com/ml-engineering-curriculum/principal-ml-engineer-solutions | scaffolded (in development) |
+| Level | Role | Modules | Learning | Solutions | Status |
+|---|---|---|---|---|---|
+| L20 | Machine Learning Engineer | 10 | [ml-engineer-learning](https://github.com/ml-engineering-curriculum/ml-engineer-learning) | [ml-engineer-solutions](https://github.com/ml-engineering-curriculum/ml-engineer-solutions) | Complete |
+| L30 | Fine-Tuning Engineer | 11 | [fine-tuning-engineer-learning](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning) | [fine-tuning-engineer-solutions](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-solutions) | Complete |
+| L30 | Model Evaluation Engineer | 12 | [model-evaluation-engineer-learning](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-learning) | [model-evaluation-engineer-solutions](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-solutions) | Complete |
+| L30 | NLP Engineer | 13 | [nlp-engineer-learning](https://github.com/ml-engineering-curriculum/nlp-engineer-learning) | [nlp-engineer-solutions](https://github.com/ml-engineering-curriculum/nlp-engineer-solutions) | Complete |
+| L30 | Senior Machine Learning Engineer | 10 | [senior-ml-engineer-learning](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning) | [senior-ml-engineer-solutions](https://github.com/ml-engineering-curriculum/senior-ml-engineer-solutions) | Complete |
+| L35 | Training Pipeline Engineer | 10 | [training-pipeline-engineer-learning](https://github.com/ml-engineering-curriculum/training-pipeline-engineer-learning) | [training-pipeline-engineer-solutions](https://github.com/ml-engineering-curriculum/training-pipeline-engineer-solutions) | Complete |
+| L40 | Staff Machine Learning Engineer | 10 | [staff-ml-engineer-learning](https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning) | [staff-ml-engineer-solutions](https://github.com/ml-engineering-curriculum/staff-ml-engineer-solutions) | Complete |
+| L48 | Principal Machine Learning Engineer | 6 | [principal-ml-engineer-learning](https://github.com/ml-engineering-curriculum/principal-ml-engineer-learning) | [principal-ml-engineer-solutions](https://github.com/ml-engineering-curriculum/principal-ml-engineer-solutions) | Complete |
 
 ## The AI Career Curriculum Ecosystem
 
-ML Engineering is one of four sibling curricula. Each owns a distinct layer of the AI stack:
+ML Engineering is one of five sibling curricula. Each owns a distinct layer of the AI stack:
 
 - **[ML Engineering](https://github.com/ml-engineering-curriculum)** *(this org)* — **builds and trains the models.** Data curation, training pipelines, fine-tuning, preference optimization, evaluation, and pretraining at scale.
 - **[AI Infrastructure](https://github.com/ai-infra-curriculum)** — **runs the platforms.** The substrate beneath model-building: GPU clusters, training-infra operation, scheduling, networking, and reliability.
 - **[AI Engineering](https://github.com/ai-engineering-curriculum)** — **builds WITH models.** Applied LLM and agent products: orchestration, retrieval, tool use, and shipping AI-powered applications.
 - **[AI Governance](https://github.com/ai-governance-curriculum)** — **governs and assures.** Policy, risk, assurance, and compliance for AI systems.
+- **[AI Startup](https://github.com/ai-startup-curriculum)** — **turns it into a company.** The startup operating school for technical founders.
 
 **Boundary, made explicit:** ML Engineering owns *model-building* (turning data + compute into trained models). AI Infrastructure owns the *substrate* that model-building runs on (the GPU clusters and training infrastructure, operated as a platform). AI Engineering owns *applied LLM/agent products* built on top of finished models. The same training run touches all three disciplines — ML Engineering authors it, AI Infrastructure keeps the cluster healthy, and AI Engineering consumes the resulting model in a product.
 
