@@ -12,6 +12,8 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ml-engineering-curriculum/discussions)
 [![Repositories: 18](https://img.shields.io/badge/repositories-18-blue.svg)](https://github.com/orgs/ml-engineering-curriculum/repositories)
 
+🌐 **Website:** [ml-engineering-curriculum.github.io](https://ml-engineering-curriculum.github.io/) · part of the [AI Career Curriculum](https://ai-curriculum-project.github.io/)
+
 ## 🎯 Overview
 
 This org covers **ML engineering** — *building and training* the models: data pipelines, classical and deep learning, fine-tuning and alignment, evaluation, distributed training, and the senior-to-principal work of setting ML architecture and strategy. Every role track has a paired **learning** repository (modules, lecture chapters, exercises) and a **solutions** repository with reference walkthroughs.
@@ -24,13 +26,14 @@ This org covers **ML engineering** — *building and training* the models: data 
 
 ## 🔗 Curriculum Family
 
-One of 5 sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
+One of 6 sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
 
-- **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE).
+- **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE). ([site](https://ai-infra-curriculum.github.io/))
 - **ML Engineering Curriculum** *(you are here)* — *build & train* the models (data, fine-tuning, pretraining, RLHF, evals).
-- **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems).
-- **[AI Governance Curriculum](https://github.com/ai-governance-curriculum)** — *govern & assure* AI (security, compliance, evaluation, safety).
-- **[AI Startup Curriculum](https://github.com/ai-startup-curriculum)** — *turn it into a company* — the startup operating school for technical founders (functional curricula × role pathways × stages).
+- **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems). ([site](https://ai-engineering-curriculum.github.io/))
+- **[AI Governance Curriculum](https://github.com/ai-governance-curriculum)** — *govern & assure* AI (security, compliance, evaluation, safety). ([site](https://ai-governance-curriculum.github.io/))
+- **[AI Startup Curriculum](https://github.com/ai-startup-curriculum)** — *turn it into a company* — the startup operating school for technical founders (functional curricula × role pathways × stages). ([site](https://ai-startup-curriculum.github.io/))
+- **[AI Workforce Curriculum](https://github.com/ai-workforce-curriculum)** — *work alongside* the models (AI-assisted engineering, analysis, product, and team leadership). ([site](https://ai-workforce-curriculum.github.io/))
 
 ---
 
