@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ml-engineering-curriculum/discussions)
-[![Repositories: 16](https://img.shields.io/badge/repositories-16-blue.svg)](https://github.com/orgs/ml-engineering-curriculum/repositories)
+[![Repositories: 18](https://img.shields.io/badge/repositories-18-blue.svg)](https://github.com/orgs/ml-engineering-curriculum/repositories)
 
 ## 🎯 Overview
 
@@ -18,8 +18,8 @@ This org covers **ML engineering** — *building and training* the models: data 
 
 **At a glance:**
 
-- 🏢 **16 curriculum repositories** (8 learning + 8 solutions)
-- 📚 **8 role tracks**
+- 🏢 **18 curriculum repositories** (9 learning + 9 solutions)
+- 📚 **9 role tracks**
 - 🧭 Ladder runs from **ML Engineer (L20)** to **Principal ML Engineer (L48)**, with four specialist tracks in between
 
 ## 🔗 Curriculum Family
@@ -46,6 +46,7 @@ One of 5 sibling orgs in the **AI Career Curriculum ecosystem**, organized by wh
 
 | Role | Focus | Repositories |
 |------|-------|--------------|
+| **AI Data Engineer** | Data sourcing & licensing, curation & dedup, labeling ops, synthetic data, contamination checks, dataset versioning | [📘 Learning](https://github.com/ml-engineering-curriculum/ai-data-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/ai-data-engineer-solutions) |
 | **Fine-Tuning Engineer** | SFT data, PEFT (LoRA/QLoRA), preference optimization, safety tuning, distributed fine-tuning, quantization | [📘 Learning](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-solutions) |
 | **Model Evaluation Engineer** | Benchmarks, LLM eval harnesses, LLM-as-judge, human eval, agent & safety evals, production eval | [📘 Learning](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-solutions) |
 | **NLP Engineer** | Tokenization, classical NLP, classification, extraction, QA, summarization, machine translation | [📘 Learning](https://github.com/ml-engineering-curriculum/nlp-engineer-learning) · [✅ Solutions](https://github.com/ml-engineering-curriculum/nlp-engineer-solutions) |
